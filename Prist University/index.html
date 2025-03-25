@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRIST University</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="images/logo.png" alt="PRIST University Logo">
+            <div class="university-name">
+                <span class="university-main">PONNAIYAH RAMAJAYAM INSTITUTE OF</span>
+                <span class="university-sub">SCIENCE & TECHNOLOGY (PRIST)</span>
+                <span class="university-deemed">Declared as DEEMED-TO-BE-UNIVERSITY</span>
+            </div>
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Academics</a></li>
+            <li><a href="#">Admissions</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Campus Life</a></li>
+        </ul>
+        
+        <div class="search-box">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+        
+        <button class="menu-toggle" id="menuToggle">☰</button>
+    </nav>
+
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="icon">📚</span>
+                    <span class="text">Academics</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">🎓</span>
+                    <span class="text">Admissions</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">🔬</span>
+                    <span class="text">Research</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">🏛️</span>
+                    <span class="text">Campus</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">📅</span>
+                    <span class="text">Events</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">📞</span>
+                    <span class="text">Contact</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Carousel -->
+        <div class="carousel-container">
+            <div class="carousel" id="carousel">
+                <img src="images/scrol1.jpg" alt="PRIST University Campus">
+                <img src="images/scrol2.jpg" alt="PRIST University Building">
+                <img src="images/scrol3.jpg" alt="PRIST University Facilities">
+                <img src="images/scrol4.jpg" alt="PRIST University View">
+            </div>
+            <div class="dots" id="dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+
+        <h1>Welcome to PRIST University</h1>
+        <p>PONNAIYAH RAMAJAYAM INSTITUTE OF SCIENCE & TECHNOLOGY (PRIST), declared as Deemed-to-be-University under Section 3 of UGC Act, 1956, welcomes you to a world of academic excellence and innovation.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
